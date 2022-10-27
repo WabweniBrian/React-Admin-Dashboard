@@ -1,0 +1,4 @@
+.top-wrapper .profile-card,
+.top-wrapper .chart {
+  flex: 1 1 10rem;
+}

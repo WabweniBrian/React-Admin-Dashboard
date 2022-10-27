@@ -1,0 +1,25 @@
+.top {
+  height: 45px;
+}
+
+.sidebar-nav h5 {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.sidebar-nav li {
+  color: rgb(150, 150, 150);
+  font-size: 13px;
+}
+
+.sidebar-nav .title:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.btn.light {
+  background-color: rgb(255, 255, 255) !important;
+}
+.btn.dark {
+  background-color: hsl(216, 28%, 7%) !important;
+  color: #fff;
+}

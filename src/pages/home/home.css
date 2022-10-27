@@ -1,0 +1,16 @@
+.cards .card {
+  background: #fff;
+}
+
+.charts .revenue-chart {
+  flex: 1 1 16rem;
+}
+
+.charts .income-chart {
+  flex: 1 1 18rem;
+}
+
+.circular-chart {
+  width: 150px;
+  height: 150px;
+}

@@ -1,0 +1,26 @@
+.navbar {
+  height: 45px;
+  position: fixed;
+  background-color: #fff;
+  z-index: 99;
+  width: calc(100vw - 16rem);
+  top: 0;
+}
+
+.right-nav li {
+  cursor: pointer;
+}
+
+.count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 12px;
+  color: #fff;
+  background-color: var(--danger-color);
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  display: grid;
+  place-items: center;
+}

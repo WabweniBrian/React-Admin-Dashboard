@@ -1,0 +1,55 @@
+.form .image {
+  flex: 1 1 6rem;
+}
+
+.form .inputs {
+  flex: 1 1 18rem;
+}
+
+.inputs .input {
+  position: relative;
+  flex: 1 1 15rem;
+}
+
+.inputs .input input {
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #666;
+  margin: 0.8rem 0;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.inputs .input label {
+  position: absolute;
+  left: 0;
+  top: 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.inputs .input input:focus ~ label,
+.inputs .input input:valid ~ label {
+  top: -0.4rem;
+  color: var(--primary-color);
+  font-size: 0.8rem;
+}
+
+.inputs .input input:focus,
+.inputs .input input:valid {
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .img {
+    margin: auto;
+  }
+}
